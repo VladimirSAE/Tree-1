@@ -166,7 +166,7 @@ void LinkedList<T>::push_front(T data) {
 template <class T>
 void LinkedList<T>::insert(size_t p_index, T p_data) {
   if (p_index > m_size) {
-    throw std::out_of_range("no chavo");
+    throw std::out_of_range("no seas así");
   } else if (p_index == 0) {
     // push_front(data);
   } else if (p_index == m_size) {
